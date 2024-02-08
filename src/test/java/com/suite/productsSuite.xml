@@ -5,7 +5,7 @@
 
     <test name="login">
         <classes>
-            <class name="Runner.automationExerciseRunner" />
+            <class name="com.runner.productsRunner" />
         </classes>
     </test>
 

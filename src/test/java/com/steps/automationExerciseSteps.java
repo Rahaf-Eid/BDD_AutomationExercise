@@ -19,7 +19,7 @@ public class automationExerciseSteps {
 
     @And("verify {string} is visible")
     public void isVisible (String visible){
-        Assert.assertTrue(isItVisible(visible), "it is not visible.");
+        Assert.assertTrue(isItVisible(visible),"it is not visible.");
     }
 
     @And("Click on {string}")
@@ -34,6 +34,7 @@ public class automationExerciseSteps {
     }
 
     @Given("{string} is opened")
-    public void isOpened (String arg0){
+    public void isOpened (String page){
+        //to-do
     }
 }
